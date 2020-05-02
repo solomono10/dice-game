@@ -3,7 +3,7 @@
     $(".dice-two").addClass(`fa-dice-six`);
 })();
 
-$("button").click(displayDiceScores);
+$("button").on("click", displayDiceScores);
 
 function getPlayerScores () {
 
