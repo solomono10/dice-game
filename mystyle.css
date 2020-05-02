@@ -1,0 +1,32 @@
+body {
+  text-align: center;
+  background-color: gainsboro;
+  padding-top: 4rem;
+}
+
+.dice-one,
+.dice-two {
+  color: red;
+}
+
+h1 {
+  font-family: 'Anton', sans-serif;
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2.5rem;
+  margin: 70px 0;
+}
+
+h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+}
+
+.container {
+  padding: 40px 200px;
+}
+
+/* index.js file */
