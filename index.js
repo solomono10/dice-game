@@ -31,5 +31,5 @@ function displayDiceScores () {
         winnerMessage = (diceTwo > diceOne) ? "Player 2 wins" : "Player 1 wins";
     }
 
-    return $(".winner-text").innerHTML = winnerMessage;
+    return $(".winner-text").html(`${winnerMessage}`);
 }
